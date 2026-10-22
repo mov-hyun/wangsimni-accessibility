@@ -1,0 +1,142 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 212,
+    "sha256": "eb6133cd967ce576e98cbd4f94dad0d659053bf25931cabd620e6c626bce3330"
+  },
+  {
+    "path": "data/annotated_nodes.json",
+    "bytes": 3774,
+    "sha256": "48f091102515fa486dccfa1c832e277176d26316ec285f3d09ad9423cfe1c39c"
+  },
+  {
+    "path": "data/local_metric_edges.csv",
+    "bytes": 8559,
+    "sha256": "f9184d51c6c517ac7c4fa867a985c4c707c3d5bd2761e6fabf26ce1efc2acc70"
+  },
+  {
+    "path": "data/provenance.json",
+    "bytes": 762,
+    "sha256": "0ab0775c3ce31ace3377b0d562895b5a66617eb718f96cf322a3566277faaada"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5467,
+    "sha256": "03d0d0d9bfc0e986a426b02c686af6ae492bb7f1d8b32368eea3669e294eeafe"
+  },
+  {
+    "path": "reproduce.py",
+    "bytes": 4104,
+    "sha256": "695587e8e4d2292701f4815f7bfcbd9845230b09d2aca1c15d6a1975fd3d32e3"
+  },
+  {
+    "path": "research/data/elevators_20260901.csv",
+    "bytes": 75113,
+    "sha256": "87553e6baf464cb855d690ef259dee04df1ea6bae4e1d83638c1cb044e01d3c0"
+  },
+  {
+    "path": "research/data/escalators_20260901.csv",
+    "bytes": 190761,
+    "sha256": "8ac80f105e1f5bc68702d0473604a604c303dee7f12a875807627951a2ac7d4c"
+  },
+  {
+    "path": "research/design_round2/audit_access_independent.py",
+    "bytes": 8353,
+    "sha256": "16db2e4c5ed3331a7e2b811cdcd1a42ec0beb95b230f8d797e2abf1bdecf9523"
+  },
+  {
+    "path": "research/design_round2/audit_expanded_access_independent.py",
+    "bytes": 7740,
+    "sha256": "31a9dc1b9a61bb128923beca6e7c01684b2d43737d3eca4be1a4110d7865caa8"
+  },
+  {
+    "path": "research/design_round2/check_access_connector_sensitivity.py",
+    "bytes": 6295,
+    "sha256": "d953391e2b1910ee49882a645edae201453212f977db65a3d989d2f7bd39501f"
+  },
+  {
+    "path": "research/design_round2/expanded_access_independent_audit.json",
+    "bytes": 19869,
+    "sha256": "45ae8359325977fa7089755d0acc1907346e12409f8cd6e1112132b5a51b4a5c"
+  },
+  {
+    "path": "research/design_round2/expanded_access_maintenance_checks.json",
+    "bytes": 1697,
+    "sha256": "8b84a0a4191dd9aed27baad76a16d6b5fb82f6cc5f37eb56e0ac0afbbb63f31e"
+  },
+  {
+    "path": "research/design_round2/expanded_access_maintenance_envelope.csv",
+    "bytes": 23869,
+    "sha256": "d95e2e8716b096fdd5fe223414c6567fba2ed8fac42a2633595eb1e2f6351d4d"
+  },
+  {
+    "path": "research/geometry/analyze_verified_section.py",
+    "bytes": 13159,
+    "sha256": "531b8f0e22b44e86a547417b37973e3ee8b0a9ac35bf997a272048d6ad23d9ab"
+  },
+  {
+    "path": "research/geometry/core_topology_edges.csv",
+    "bytes": 480,
+    "sha256": "86b00c871309ba152a91d276eda222a35c6f0fe89b6b5c0d2a3e4ce99ab880f9"
+  },
+  {
+    "path": "research/geometry/inspect_model.py",
+    "bytes": 2718,
+    "sha256": "cfa42eecafcefbbbff4e77c9d7c06cd4c9b7d4fe96bd98d07efb27edff36f7bc"
+  },
+  {
+    "path": "research/geometry/verify_fine_grid.py",
+    "bytes": 2036,
+    "sha256": "577360e31be7415f9b28c16cab83aa4dd52bdd8c53cebae61b993318ddd66248"
+  },
+  {
+    "path": "research/metric_extension/extend_checked_section.py",
+    "bytes": 15352,
+    "sha256": "210f41b0e6cb10c6fab83ae5ede7663e075f81b5d0f8df360bc75ddfff058a96"
+  },
+  {
+    "path": "research/metric_extension/tread_component_endpoints.csv",
+    "bytes": 1610,
+    "sha256": "9f2c53bd8ecf51402c52530023966cfaa534906106fc7ac4ceb673e984f03345"
+  },
+  {
+    "path": "research/range_model/conditional_range_model.py",
+    "bytes": 30345,
+    "sha256": "c8707e0d7f3ab50e090f2a6a1c6a437e9dc6e5e3e8e41c273afb5328151e0157"
+  },
+  {
+    "path": "research/range_model/mechanical_two_axis_scale_checks.csv",
+    "bytes": 419,
+    "sha256": "2a48c191c60809c6ff3481077c2c11f1e7f68aeae687dd6abdff7ca494194a42"
+  },
+  {
+    "path": "research/range_model/representative_grid_diagnostics.csv",
+    "bytes": 715,
+    "sha256": "b7f643c267693648070c2f761dfc8ab552d504f63996921a613f7c6430d9567a"
+  },
+  {
+    "path": "research/range_model/validate_ranges.py",
+    "bytes": 4579,
+    "sha256": "c95b23c91c3c2f174a00f4cd4e965fe54c1be4e886d1acacd31109a07ba3546b"
+  },
+  {
+    "path": "research/upper_check/candidate_korail_edges.csv",
+    "bytes": 1374,
+    "sha256": "2a9b3d36fbe1f048d43b84f643fa457ab1e4605d62b9cbe63e998655daf551bb"
+  },
+  {
+    "path": "research/upper_check/korail_el5_candidate_edges.csv",
+    "bytes": 362,
+    "sha256": "06dee172db0421029aab30e6ea996298c29659d0068faa840f9d1b27249e5151"
+  },
+  {
+    "path": "results/report_values.json",
+    "bytes": 3912,
+    "sha256": "bd5b177265ab4275fbdafbb1d3020f8492809a8785e9a707ab6c27e611a9c1b2"
+  },
+  {
+    "path": "SOURCES.md",
+    "bytes": 3981,
+    "sha256": "631c0cb5c5283e8b5a0607b4a5ad20f5dffbc6eb4848b57e9092a2c4c2f3df4d"
+  }
+]

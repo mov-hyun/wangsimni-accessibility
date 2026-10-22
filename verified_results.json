@@ -1,0 +1,160 @@
+{
+  "timing": [
+    {
+      "origin": "TREAD2_BOTTOM_PLUS1",
+      "target": "M1",
+      "normal": 53.011445958945615,
+      "early": 55.68673472202975,
+      "late": 56.040120798506024,
+      "late_extra": 0.3533860764762764,
+      "early_path": [
+        [
+          "TREAD2_BOTTOM_PLUS1",
+          "SNW_4",
+          ""
+        ],
+        [
+          "SNW_4",
+          "SNW_5",
+          "SNW"
+        ],
+        [
+          "SNW_5",
+          "M1",
+          ""
+        ]
+      ],
+      "normal_path": [
+        [
+          "TREAD2_BOTTOM_PLUS1",
+          "E3_4",
+          ""
+        ],
+        [
+          "E3_4",
+          "E3_5",
+          "0103-814"
+        ],
+        [
+          "E3_5",
+          "M1",
+          ""
+        ]
+      ]
+    },
+    {
+      "origin": "M1",
+      "target": "TREAD2_BOTTOM_PLUS1",
+      "normal": 53.011445958945615,
+      "early": 55.68673472202975,
+      "late": 86.1002836598433,
+      "late_extra": 30.41354893781355,
+      "early_path": [
+        [
+          "M1",
+          "SNW_5",
+          ""
+        ],
+        [
+          "SNW_5",
+          "SNW_4",
+          "SNW"
+        ],
+        [
+          "SNW_4",
+          "TREAD2_BOTTOM_PLUS1",
+          ""
+        ]
+      ],
+      "normal_path": [
+        [
+          "M1",
+          "E3_5",
+          ""
+        ],
+        [
+          "E3_5",
+          "E3_4",
+          "0103-814"
+        ],
+        [
+          "E3_4",
+          "TREAD2_BOTTOM_PLUS1",
+          ""
+        ]
+      ]
+    }
+  ],
+  "tradeoff": {
+    "origin": "TREAD2_BOTTOM_PLUS1",
+    "target": "M3",
+    "stairs": 61.75256456854254,
+    "no_stairs": 70.3667511382837,
+    "extra": 8.614186569741165,
+    "stair_vertical_m": 4.4
+  },
+  "conditional_bound": {
+    "lower": 8.203515519955154,
+    "upper": 15.621541492240866,
+    "condition": "All four upper routes remain available with the same unknown upper walking lengths; stairs permitted; conditional model only."
+  },
+  "local_Dijkstra_Floyd_checks": 5000,
+  "maintenance": {
+    "worlds": 40,
+    "physical_equipment": 24,
+    "outage_sets": 305,
+    "summary_rows": 24400,
+    "independent_BFS_vs_Warshall": 195200,
+    "mismatches": 0,
+    "key_results": [
+      {
+        "profile": "EL_ONLY",
+        "outage": "2133-670",
+        "min_lost_OD": 8,
+        "max_lost_OD": 8,
+        "total_OD": 8
+      },
+      {
+        "profile": "EL_ONLY",
+        "outage": "0003-466;1809-217",
+        "min_lost_OD": 0,
+        "max_lost_OD": 4,
+        "total_OD": 8
+      },
+      {
+        "profile": "EL_ONLY",
+        "outage": "1800-566;2133-670",
+        "min_lost_OD": 8,
+        "max_lost_OD": 8,
+        "total_OD": 8
+      },
+      {
+        "profile": "ES_ALLOWED_NO_STAIRS",
+        "outage": "2133-670",
+        "min_lost_OD": 0,
+        "max_lost_OD": 8,
+        "total_OD": 8
+      },
+      {
+        "profile": "ES_ALLOWED_NO_STAIRS",
+        "outage": "0003-466;1809-217",
+        "min_lost_OD": 0,
+        "max_lost_OD": 2,
+        "total_OD": 8
+      },
+      {
+        "profile": "ES_ALLOWED_NO_STAIRS",
+        "outage": "1800-566;2133-670",
+        "min_lost_OD": 0,
+        "max_lost_OD": 8,
+        "total_OD": 8
+      }
+    ],
+    "model_validity": "UNVERIFIED_APPROACH_CONNECTORS_EXPLICITLY_GATED",
+    "findings_status": "Conditional graph only. Additional unmapped paths/lifts and lower-hall internal access can change actual results. B2-enabled worlds additionally require stair-free and permitted access from L2_SANG to the B2 EL1 door; the new official beacon location evidence alone does not establish this.",
+    "supersedes": "20-world envelope for conclusions that omit potential EL1 B2 access",
+    "distance_computed": false,
+    "probability_computed": false,
+    "passenger_weighted": false
+  }
+}
